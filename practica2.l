@@ -99,6 +99,6 @@ IP {RANGOIP}"."{RANGOIP}"."{RANGOIP}"."{RANGOIP}" - -"
             errores_totales += cit->second.errores;
         }
         cout << "Me han llegado " << num_pet << " peticiones de " << data.size() << " IPs\n";
-        cout << "\tTasa de aciertos " << ((float)aciertos_totales/num_pet)*100 << "%\n";
+        cout << "\tTasa de exito " << ((float)aciertos_totales/num_pet)*100 << "%\n";
         cout << "\tTasa de errores " << ((float)errores_totales/num_pet)*100 << "%\n";
     }
